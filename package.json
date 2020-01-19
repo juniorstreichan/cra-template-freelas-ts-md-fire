@@ -1,0 +1,28 @@
+{
+  "name": "cra-template-freelas-ts-md-fire",
+  "version": "0.0.8",
+  "description": "A CRA template building with Typescript, Material-ui and Firebase for startup projects",
+  "main": "template.json",
+  "repository": "https://github.com/juniorstreichan/cra-template-freelas-ts-md-fire",
+  "author": "Junior Streichan",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "cra-template",
+    "typescript",
+    "material-ui",
+    "firebase",
+    "freelas"
+  ],
+  "engines": {
+    "node": ">=8.10"
+  },
+  "bugs": {
+    "url": "https://github.com/juniorstreichan/cra-template-freelas-ts-md-fire/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}

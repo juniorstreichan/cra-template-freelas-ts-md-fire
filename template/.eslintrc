@@ -1,0 +1,46 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "airbnb",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "plugin:eslint-comments/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:import/typescript",
+    "plugin:jest/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "plugins": [
+    "react",
+    "@typescript-eslint",
+    "jsx-a11y",
+    "import",
+    "prettier",
+    "jest",
+    "eslint-comments"
+  ],
+  "rules": {
+    "@typescript-eslint/indent": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/camelcase": "off",
+    "react/jsx-filename-extension": [1, {
+      "extensions": [".js", ".jsx", ".ts", ".tsx"]
+    }],
+    "react/prop-types": "off",
+    "react/button-has-type": "off",
+    "import/extensions": "off",
+    "import/prefer-default-export": "off",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": ["config-overrides.js", "src/setupTests.ts", "src/**/*.test.{ts,tsx}"]
+      }
+    ],
+    "prettier/prettier": ["error"]
+  }
+}
