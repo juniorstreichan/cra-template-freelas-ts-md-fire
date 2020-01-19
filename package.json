@@ -1,6 +1,6 @@
 {
   "name": "cra-template-freelas-ts-md-fire",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A CRA template building with Typescript, Material-ui and Firebase for startup projects",
   "main": "template.json",
   "repository": "https://github.com/juniorstreichan/cra-template-freelas-ts-md-fire",

@@ -1,6 +1,6 @@
 # Freelas - TS MD Fire
 
-**A [CRA template](https://create-react-app.dev/docs/custom-templates/) building with Typescript, Material UI and Firebase for startup projects.**
+**A CRA template building with Typescript, Material UI and Firebase for startup projects.**
 
 <small>
 Pay attention in the create-react-app version because this feature is ready post the 3.0 version.
@@ -14,7 +14,7 @@ Pay attention in the create-react-app version because this feature is ready post
 create-react-app project_name --template freelas-ts-md-fire
 ```
 
-![INIT](/docs/install-template.gif)
+![INIT](https://github.com/juniorstreichan/cra-template-freelas-ts-md-fire/raw/master/docs/install-template.gif)
 
 ```sh 
 cd project_name
@@ -36,7 +36,7 @@ REACT_APP_FIREBASE_MEASUREMENT_ID=
 ```
 ### 3 - Start your app and ...
 
-![SHOW](/docs/show-template.gif)
+![SHOW](https://github.com/juniorstreichan/cra-template-freelas-ts-md-fire/raw/master/docs/show-template.gif)
 
 <hr />
 
